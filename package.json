@@ -17,14 +17,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/abuhdaniel/cse341-books.git"
+    "url": "https://github.com/abuhdaniel/cse341-books.git"
   },
   "license": "ISC",
   "author": "Abuh Friday Daniel",
   "type": "module",
   "main": "server.js",
   "scripts": {
-    "start": "node --env-file=.env server.js",
+    "start": "node server.js",
     "dev": "nodemon --env-file=.env server.js",
     "lint": "eslint .",
     "lint:fix": "eslint . --fix",
